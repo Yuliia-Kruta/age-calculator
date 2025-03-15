@@ -1,10 +1,10 @@
 <h1 align="center">Age Calculator</h1>
 <br/>
-<img align="left" src="./meme-generator.gif" width="30%" height="auto"/>
-<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Project Link: <a target="new" href="update">Live Demo</a>
+<img align="left" src="./age-calculator.png" width="30%" height="auto"/>
+<br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Project Link: <a target="new" href="https://yuliia-kruta.github.io/age-calculator/">Live Demo</a>
 <br/><br/><br/><br/>
-<br/>
+<br/><br/>
 <h2>Project description</h2>
 This project is a simple age calculator that interacts with a <b>micro:bit</b> microcontroller via USB. The web interface allows users to enter their date of birth, calculates their age, and displays it both on the webpage and the micro:bit. If it's the user's birthday, the micro:bit plays a birthday song.
 
