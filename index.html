@@ -1,0 +1,22 @@
+<!--Developed by Yuliia Kruta -->
+<html>
+  <head>
+    <title>Age Calculator</title>
+    <script src="components/SerialComponent/SerialComponent.js"></script> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="componentStyle.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="centerDiv">
+      <h1 class="header">Age Calculator</h1>  
+      <custom-serial id="customSerial"></custom-serial>
+      <p class="customUpperMargin">Please input your date of birth:</p> 
+      <input type="date" id="dob">
+      <button id="calcAge" class="button">Click to calculate age</button>
+      <p id="output" class="customUpperMargin"></p>   
+      <p id="outputBday" class="customUpperMargin"></p>   
+    </div>    
+    <script src="index.js"></script>  
+  </body>
+</html>

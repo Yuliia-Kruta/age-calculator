@@ -1,0 +1,56 @@
+
+/* this allows for customising the layout of parts of the Microbit panel
+ * for example, hiding parts of the panel that aren't relevant */
+ custom-serial {    
+    /* set this to 'none' to hide the send panel, or 'flex' to show it */
+    --send-panel-display: none;
+    
+    /* set this to 'none' to hide the receive panel, or 'flex' to show it */
+    --receive-panel-display: none;
+    
+    /* these styles apply to the collapsed microbit component */
+    --title-panel-color: #F6F6F7;
+    --title-panel-border-style: none;
+    --title-panel-border-color: #F6F6F7;
+    --title-panel-font-family: var(--mainFont); /*--mainFont from style.css*/
+    --title-panel-font-size: 16px;
+
+    --expand-button-background-color: var(--mainBlue); /*--mainBlue from style.css*/
+    --expand-button-text-color: rgb(0, 0, 0);
+
+    /* these styles apply to the expanded microbit component */
+    --main-panel-background-color: #252525;
+    --main-panel-color: #F6F6F7;
+    --main-panel-font-family: var(--mainFont); /*--mainFont from style.css*/
+    --main-panel-margin: 0px;
+    --main-panel-border-style: none;
+    --main-panel-border-color: rgb(111, 110, 110);
+    --main-panel-padding: px;
+    --sub-panel-background-color: #252525;
+    
+    /* these allow styling of toggle buttons */
+    --toggle-button-panel-color: rgb(20, 20, 20);
+    --toggle-button-margin: 5px;
+    --toggle-button-border-radius: 5px;
+    --toggle-button-padding: 10px;
+    --toggle-button-font-family: var(--mainFont); /*--mainFont from style.css*/
+    
+    /* and these allow styling of toggle buttons when toggled on */
+    --toggle-button-on-color: var(--mainBlue);
+    --toggle-button-on-border-style: none;
+    --toggle-button-on-border-color: #F6F6F7;
+    --toggle-button-on-font-color: #000000;
+    --toggle-button-on-font-family: var(--mainFont); /*--mainFont from style.css*/
+    --toggle-button-on-font-weight: 500;
+    --toggle-button-on-font-size: 16px;
+    
+    /* and these allow styling of toggle buttons when toggled off */
+    --toggle-button-off-color: var(--mainBlue);
+    --toggle-button-off-border-style: none;
+    --toggle-button-off-border-color: rgb(255, 255, 255);
+    --toggle-button-off-font-color:#000000;
+    --toggle-button-off-font-family: var(--mainFont); /*--mainFont from style.css*/
+    --toggle-button-off-font-size: 16px;   
+    --toggle-button-off-font-weight: 500;
+
+}
